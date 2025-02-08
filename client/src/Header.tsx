@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div>
         <div className="logo">
-            <h1 className='text-3xl font-bold underline text-red-600'>ShowCase</h1>
+            <h1 className=''>ShowCase</h1>
         </div>
         <div className="header-menu">
             <p>Signup</p>
