@@ -1,0 +1,11 @@
+.header__menu-item{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.header__menu-item:hover{
+    color:white;
+    cursor:pointer;
+}
+.header__logo-text{
+    font-family: sans-serif;
+}
