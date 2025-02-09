@@ -5,7 +5,7 @@ import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 export default function Header() {
   return (
-    <div className='header__wrapper flex justify-between items-center'>
+    <div className='header__wrapper flex justify-between items-center mt-[20px]'>
         <div className="header__logo">
             <h1 className='header__logo-text text-[40px] ml-[30px] text-white tracking-[-4px] font-bold'>ShowCase</h1>
         </div>

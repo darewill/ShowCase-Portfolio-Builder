@@ -1,4 +1,15 @@
 body{
     background-color: #106EBE;
     color: #0FFCBE;
+    height: 100%;
+    width: 100%;
+}
+
+.main-image{
+    background-image: url('../images/1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:40%;
+    background-position-x: 10%;
+    background-position-y: 95%;
 }
