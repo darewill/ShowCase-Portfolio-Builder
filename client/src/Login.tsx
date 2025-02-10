@@ -9,7 +9,6 @@ export default function Login() {
         <Header />
         <div className="main h-screen">
           <div className="main-image h-[90%]"></div>
-          <div className="main-form"></div>
         </div>
         <Footer />
     </div>

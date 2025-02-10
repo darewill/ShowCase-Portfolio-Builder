@@ -3,9 +3,14 @@
     font-size: 20px;
 }
 .header__menu-item:hover{
-    color:white;
+    color:#0FFCBE;
     cursor:pointer;
 }
 .header__logo-text{
     font-family: sans-serif;
+}
+
+.header-button:hover{
+    background-color: black;
+    color: #0FFCBE;
 }
