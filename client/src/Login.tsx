@@ -19,10 +19,15 @@ export default function Login() {
     <div className="flex flex-col h-screen">
       <Header />
       <div className="main main-image h-screen">
-        <Card className="login-card w-[400px] ml-[55%] mt-[10%]">
+        <div className="main-title ml-[28%] mt-[5%]">
+        <h1 className="text-[70px] font-bold ">Build Your Own <br /> </h1> <h1 className='text-[70px] font-bold text-[#0FFCBE]'>Portfolio</h1>
+        <br/>
+        <p className='w-[35%] font-semibold text-xl'>Create, customize, and showcase your projects with interactive live demos, GitHub links, and tech stack badges. <br/>Deploy your portfolio in one click and impress recruiters with a polished, professional showcase of your work.</p>
+        </div>
+        <Card className="login-card w-[450px] h-[370px] ml-[60%] mt-[-320px] text-3xl">
           <CardHeader>
             <CardTitle>Log in</CardTitle>
-            <CardDescription>
+            <CardDescription className='text-xl'>
               Create Your Own Portfolio
             </CardDescription>
           </CardHeader>
@@ -30,16 +35,16 @@ export default function Login() {
             <form>
               <div className="grid w-full items-center gap-4">
                 <div className="flex flex-col space-y-1.5">
-                  <Label htmlFor="name">Email</Label>
+                  <Label className='text-xl' htmlFor="name">Email</Label>
                   <Input id="name" placeholder="Your email"/>
-                  <Label htmlFor="password">Password</Label>
+                  <Label className='text-xl' htmlFor="password">Password</Label>
                   <Input id="password" type='password' placeholder="********" />
                 </div>
               </div>
             </form>
           </CardContent>
           <CardFooter className="flex justify-center">
-            <Button className='header-button bg-[#122285]'>Log In</Button>
+            <Button className='header-button bg-[#122285] mt-[10px] h-[50px] w-[100px] text-lg'>Log In</Button>
           </CardFooter>
         </Card>
       </div>
